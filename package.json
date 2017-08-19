@@ -1,0 +1,148 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bitcore-p2p",
+        "scope": null,
+        "escapedName": "bitcore-p2p",
+        "name": "bitcore-p2p",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/home/drs/workshop/nodejs/github"
+    ]
+  ],
+  "_from": "bitcore-p2p@latest",
+  "_id": "bitcore-p2p@1.1.1",
+  "_inCache": true,
+  "_location": "/bitcore-p2p",
+  "_nodeVersion": "4.6.0",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/bitcore-p2p-1.1.1.tgz_1484345767662_0.8760300623252988"
+  },
+  "_npmUser": {
+    "name": "kleetus",
+    "email": "chrisk@bitpay.com"
+  },
+  "_npmVersion": "2.15.9",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bitcore-p2p",
+    "scope": null,
+    "escapedName": "bitcore-p2p",
+    "name": "bitcore-p2p",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/bitcore-p2p/-/bitcore-p2p-1.1.1.tgz",
+  "_shasum": "033590e516ebc5cab46ee981c46c3bc9c239cb37",
+  "_shrinkwrap": null,
+  "_spec": "bitcore-p2p",
+  "_where": "/home/drs/workshop/nodejs/github",
+  "author": {
+    "name": "BitPay",
+    "email": "dev@bitpay.com"
+  },
+  "bugs": {
+    "url": "https://github.com/bitpay/bitcore-p2p/issues"
+  },
+  "contributors": [
+    {
+      "name": "Yemel Jardi",
+      "email": "yemel@bitpay.com"
+    },
+    {
+      "name": "Braydon Fuller",
+      "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Ryan X. Charles",
+      "email": "ryan@bitpay.com"
+    },
+    {
+      "name": "Eric Martindale",
+      "email": "eric@bitpay.com"
+    },
+    {
+      "name": "Philip Hutchins",
+      "email": "philip@bitpay.com"
+    },
+    {
+      "name": "Manuel Araoz",
+      "email": "maraoz@bitpay.com"
+    },
+    {
+      "name": "Esteban Ordano",
+      "email": "eordano@gmail.com"
+    },
+    {
+      "name": "Elichai Turkel"
+    }
+  ],
+  "dependencies": {
+    "bitcore-lib": "^0.13.7",
+    "bloom-filter": "^0.2.0",
+    "buffers": "github:bitpay/node-buffers#v0.1.2-bitpay",
+    "socks5-client": "^0.3.6"
+  },
+  "description": "Interface to the bitcoin P2P network for bitcore",
+  "devDependencies": {
+    "bitcore-build": "git://github.com/bitpay/bitcore-build.git",
+    "brfs": "^1.2.0",
+    "chai": "~1.10.0",
+    "gulp": "^3.8.10",
+    "sinon": "^1.12.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "033590e516ebc5cab46ee981c46c3bc9c239cb37",
+    "tarball": "https://registry.npmjs.org/bitcore-p2p/-/bitcore-p2p-1.1.1.tgz"
+  },
+  "gitHead": "96c10c27eaa6b2bbf3cc9227c49f55f358daf5ef",
+  "homepage": "https://github.com/bitpay/bitcore-p2p#readme",
+  "keywords": [
+    "bitcoin",
+    "bitcore"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "braydonf",
+      "email": "courier@braydon.com"
+    },
+    {
+      "name": "gabegattis",
+      "email": "gabegattis@gmail.com"
+    },
+    {
+      "name": "kleetus",
+      "email": "laconia@gmail.com"
+    },
+    {
+      "name": "patrickbitpay",
+      "email": "patrick@bitpay.com"
+    }
+  ],
+  "name": "bitcore-p2p",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bitpay/bitcore-p2p.git"
+  },
+  "scripts": {
+    "build": "gulp",
+    "coverage": "gulp coverage",
+    "lint": "gulp lint",
+    "test": "gulp test:node"
+  },
+  "version": "1.1.1"
+}
