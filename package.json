@@ -87,7 +87,7 @@
     }
   ],
   "dependencies": {
-    "bitcore-lib": "^0.13.7",
+    "bitcore-lib": "magichex/cdncore-lib",
     "bloom-filter": "^0.2.0",
     "buffers": "github:bitpay/node-buffers#v0.1.2-bitpay",
     "socks5-client": "^0.3.6"
